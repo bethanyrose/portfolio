@@ -1,0 +1,77 @@
+/* adding comments is easy press ctrl+ / */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.25em;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  min-height: 100vh;
+  background-color: #6B133D;
+}
+
+nav {
+  background-color: #ffffff;
+  width: 100%;
+  position: fixed;
+}
+
+nav a {
+  color: #6B133D;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em;
+}
+
+header main {
+  text-align: center;
+  font-size: 1.25em;
+  padding-top: 4em;
+}
+h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  text-shadow: 0.05em 0.05em #ff0000;
+}
+
+h2 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.about-me {
+  background-color: black;
+  color: white;
+  padding: 5em;
+  /* no need to use padding-top padding-bottom etc. can list after padding (from top running clockwise): 2em 0; */
+  line-height:1.5;
+  /* no unit needed for line height as this is double spacing (e.g. word)  */
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+  /* the code line above is how to center elements */
+}
+
+.projects {
+  background-color: lightgrey;
+  padding: 5em;
+  line-height:1.5;
+}
+
+.projects img {
+  width: 30%;
+  padding: 30px;
+  padding-left: 0;
+}
